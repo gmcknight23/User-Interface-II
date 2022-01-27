@@ -28,7 +28,6 @@ header {
   background-color: lightgrey;
   padding: 20px;
   margin-bottom: 15px;
-
 }
 
 footer {
@@ -59,14 +58,13 @@ footer {
 }
 
 @media (max-width: 800px) {
-  .row div{
+  .row div {
     width: 20%;
   }
-  .topsection img{
+  .topsection img {
     width: 40%;
   }
-  }
-
+}
 
 @media (max-width: 500px) {
   header {
@@ -75,45 +73,44 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  nav{
+  nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  button{
+  button {
     width: 40%;
     margin: 1% 0;
   }
-  .topsection{
+  .topsection {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .topsection div{
+  .topsection div {
     display: flex;
     flex-direction: column;
     width: 80%;
     align-items: center;
     justify-content: center;
   }
-  
-  .topsection img{
+
+  .topsection img {
     width: 90%;
   }
 
-  .row{
+  .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .row div{
-    width:40%;
+  .row div {
+    width: 40%;
     margin: 4% 0;
   }
 
-  .description{
+  .description {
     padding: 20px;
-  }
   }
 }
